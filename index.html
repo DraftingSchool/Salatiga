@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Salatiga Drafting School</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: #f5f7fa;
+      color: #222;
+    }
+    header {
+      background: #003366;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 { font-size: 32px; }
+    header p { font-size: 18px; }
+    header a {
+      background: #007bff;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      margin-top: 10px;
+      display: inline-block;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .features, .courses, .contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: space-between;
+    }
+    .card {
+      flex: 1 1 250px;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    .testimoni {
+      text-align: center;
+      font-style: italic;
+      padding: 20px;
+      background: #eef2f7;
+      margin-top: 20px;
+      border-left: 4px solid #007bff;
+    }
+    .form {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    .map {
+      margin-top: 20px;
+    }
+    footer {
+      background: #003366;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    @media (max-width: 768px) {
+      .features, .courses, .contact {
+        flex-direction: column;
+      }
+      header h1 {
+        font-size: 24px;
+      }
+      header p {
+        font-size: 16px;
+      }
+    }
+    .floating-whatsapp {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Salatiga Drafting School</h1>
+    <p>Tempat Kursus Terbaik untuk Masa Depan Cerah!</p>
+    <a href="#formulir">Daftar Sekarang</a>
+  </header>
+
+  <section class="section">
+    <h2 style="text-align:center;">Kenapa Memilih Kami?</h2>
+    <div class="features">
+      <div class="card">
+        <strong>Mentor Berpengalaman</strong>
+        <p>Instruktur profesional di bidang teknik gambar & plant design.</p>
+      </div>
+      <div class="card">
+        <strong>Sertifikat</strong>
+        <p>Sertifikat resmi setelah lulus pelatihan.</p>
+      </div>
+      <div class="card">
+        <strong>Harga Terjangkau</strong>
+        <p>Rp 300.000 untuk pelatihan profesional di bidang teknik gambar.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 style="text-align:center;">Program Kursus</h2>
+    <div class="courses">
+      <div class="card">
+        <h3>Training Basic AutoCAD Drafter</h3>
+        <p>We provide the training to relate the customer and industrial need so our graduates have a great skill and special ability to complete the project jobs according to their specific field of work, and they can compete with others confidently. This training course is advance training after AutoCAD Basic Training Course for who want to improve or to get the skill as Basic AutoCAD</p>
+        <p><strong>Rp 350.000</strong></p>
+      </div>
+      <div class="card">
+        <h3>AutoCAD Civil Drafter</h3>
+        <p>We provide the training to relate the customer and industrial need so our graduates have a great skill and special ability to complete the project jobs according to their specific field of work, and they can compete with others confidently. This training course is advance training after AutoCAD Basic Training Course for who want to improve or to get the skill as civil drafter.</p>
+        <p><strong>Rp 300.000</strong></p>
+      </div>
+      <div class="card">
+        <h3>AutoCAD Piping Mechanical Drafter</h3>
+        <p>We provide the training to relate the customer and industrial need so our graduates have a great skill and special ability to complete the project jobs according to their specific field of work, and they can compete with others confidently. This training course is advance training after AutoCAD Basic Training Course for who want to improve or to get the skill as piping drafter.</p>
+        <p><strong>Rp 300.000</strong></p>
+      </div>
+      <div class="card">
+        <h3>AutoCAD Electrical Instrument Drafter</h3>
+        <p>We provide the training to relate the customer and industrial need so our graduates have a great skill and special ability to complete the project jobs according to their specific field of work, and they can compete with others confidently. This training course is advance training after AutoCAD Basic Training Course for who want to improve or to get the skill as electrical drafter.</p>
+        <p><strong>Rp 300.000</strong></p>
+      </div>
+      <div class="card">
+        <h3>AutoCAD Plant 3D (P&amp;ID) Basic</h3>
+        <p>Autocad plan 3D is good trend today and we provide training course for this CAD software. This course is Fundamental where the trainee need a fundamental skill for design a piping route using Autocad lant 3D. Even though this course called Fundamental but the trainee need to get first Autocad basic skill and knowledge in piping design.</p>
+        <p><strong>Rp 500.000</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 style="text-align:center;">Testimoni Alumni</h2>
+    <div class="testimoni">
+      “Instruktur yang hebat dan suasana belajar yang mendukung.”<br />
+      <strong>- Siti Hasanah</strong>
+    </div>
+  </section>
+
+  <section class="section contact" id="formulir">
+    <div class="card form">
+      <h2>Formulir Pendaftaran</h2>
+      <form onsubmit="event.preventDefault(); alert('Terima kasih, data Anda telah dikirim!');">
+        <input type="text" name="nama" placeholder="Nama Lengkap" required />
+        <input type="email" name="email" placeholder="Email" required />
+        <textarea name="pesan" placeholder="Pesan atau pertanyaan"></textarea>
+        <button type="submit" style="padding:10px 20px; background:#007bff; color:white; border:none; border-radius:6px;">Kirim</button>
+      </form>
+    </div>
+
+    <div class="card">
+      <h3>Hubungi Kami</h3>
+      <p><strong>Alamat:</strong><br/>Kebun Kopi Bintang, Salatiga</p>
+      <p><strong>Email:</strong><br/><a href="mailto:upgrade.teknik@gmail.com">upgrade.teknik@gmail.com</a></p>
+      <div class="map">
+        <iframe src="https://www.google.com/maps?q=Kebun+Kopi+Bintang+Salatiga&output=embed" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <a href="https://wa.me/6281234567890" class="floating-whatsapp" target="_blank">Chat via WhatsApp</a>
+
+  <footer>
+    © 2025 Salatiga Drafting School — Semua Hak Dilindungi
+  </footer>
+
+</body>
+</html>
